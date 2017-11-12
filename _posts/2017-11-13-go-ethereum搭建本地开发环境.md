@@ -1,5 +1,5 @@
 ---
-title: go-ethereum本地开发环境的搭建
+title: go-ethereum搭建本地开发环境
 date: 2017-11-13 00:44:25
 categories:
 - 区块链
