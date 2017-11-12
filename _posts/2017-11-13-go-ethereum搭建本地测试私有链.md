@@ -1,5 +1,5 @@
 ---
-title: go-ethereum搭建本地测试私有链
+title: go-ethereum 搭建本地测试私有链
 date: 2017-11-13 01:16:54
 categories:
 - 区块链

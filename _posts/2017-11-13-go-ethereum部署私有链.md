@@ -1,5 +1,5 @@
 ---
-title: go-ethereum部署私有链
+title: go-ethereum 部署私有链
 date: 2017-11-13 01:24:13
 categories:
 - 区块链
