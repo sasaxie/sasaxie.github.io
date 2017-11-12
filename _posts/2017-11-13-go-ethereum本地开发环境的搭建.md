@@ -5,7 +5,7 @@ categories:
 - 区块链
 tags:
 - go-ethereum
-区块链
+- 区块链
 ---
 # 1. 使用 Vagrant
 > 目的：使用 Vagrant 可以方便跨平台开发，可定制一致的开发环境，共享给团队其他成员使用。
