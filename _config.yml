@@ -4,12 +4,12 @@
 # ---------------------------------------------------------------
 
 # Site
-title: NexT
+title: sasaxie
 subtitle:
-description:
-author: John Doe
+description: 因为经历，所以懂得；因为懂得，所以珍惜。
+author: sasaxie
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: en
+language: zh-Hans
 date_format: '%Y-%m-%d'
 
 # URL
@@ -78,7 +78,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Jekyll, NexT"
+keywords: "sasaxie, sasaxie' blog"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
