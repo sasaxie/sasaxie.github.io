@@ -4,7 +4,7 @@ date: 2017-11-13 00:44:25
 categories:
 - 区块链
 tags:
-go-ethereum
+- go-ethereum
 区块链
 ---
 # 1. 使用 Vagrant
