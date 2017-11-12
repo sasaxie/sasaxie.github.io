@@ -50,6 +50,7 @@ tags:
 geth --datadir /home/vagrant/node init genesis.json
 ```
 参数简介：
+
 | 参数 | 描述 |
 | --- | --- |
 | datadir | 指定数据目录，不同节点指定不同目录，注意所指目录权限 |
@@ -61,6 +62,7 @@ geth --datadir /home/vagrant/node init genesis.json
 geth --identity "private ethereum" --rpc --rpccorsdomain "*" --datadir "/home/vagrant/node" --port "30303" --rpcapi "db,eth,net,web3" --networkid "95518" console
 ```
 参数简介：
+
 | 参数 | 描述 |
 | --- | --- |
 | identity | 区块链的标识，用于标识目前网络的名字 |
