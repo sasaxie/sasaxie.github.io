@@ -10,7 +10,7 @@ tags:
 - JMX
 ---
 1. 安装并启动 Open-Falcon Agent
-2. 下载并解压编译好的 Release 包到目标安装目录下
+2. 下载并解压编译好的 [Release](https://github.com/toomanyopenfiles/jmxmon/releases/latest) 包到目标安装目录下
 3. `cp conf.example.properties conf.properties`
 4. 修改 conf.properties 配置文件，一般情况下只需要将 jmx.ports 的端口号配置上就可以了
 5. `sh control start`
