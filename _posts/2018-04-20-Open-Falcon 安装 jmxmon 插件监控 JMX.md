@@ -9,7 +9,7 @@ tags:
 - jmxmon
 - JMX
 ---
-**安装步骤**
+# 1. 安装步骤
 
 1. 安装并启动 Open-Falcon Agent
 2. 下载并解压编译好的 [Release](https://github.com/toomanyopenfiles/jmxmon/releases/latest) 包到目标安装目录下
@@ -18,12 +18,12 @@ tags:
 5. `sh control start`
 6. `sh control tail` 查看日志，或者 `cat var/app.log` 以确认程序是否正常启动
 
-**参考目录**
+# 2. 参考安装目录
 
 Agent 安装目录：`/home/src/github.com/open-falcon/agent/`
 jmxmon 解压后的目录：`/home/src/github.com/open-falcon/agent/jmxmon-v0.0.2`
 
-**启动 Java 程序配置 JMX Port 参考**
+# 3. 启动 Java 程序配置 JMX Port 参考
 
 ```shell
 java -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=9996 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -jar demo.jar
@@ -31,7 +31,7 @@ java -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=9996 -Dc
 
 所以 `jmx.ports = 9996`
 
-**conf.properties**
+# 4. 参考 conf.properties 配置
 
 ```shell
 # the working dir
@@ -44,7 +44,7 @@ jmx.ports=9996
 agent.posturl=http://localhost:1988/v1/push
 ```
 
-**Agent port**
+# 5. 参考 Agent port 配置
 
 可以到 Agent 安装目录下的 cfg.json 查看。
 
