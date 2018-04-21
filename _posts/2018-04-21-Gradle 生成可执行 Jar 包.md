@@ -47,3 +47,5 @@ shadowJar {
     version = null
 }
 ```
+
+详细参考文档：[http://imperceptiblethoughts.com/shadow/](http://imperceptiblethoughts.com/shadow/)
