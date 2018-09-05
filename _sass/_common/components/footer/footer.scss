@@ -44,19 +44,21 @@
   width: 260px;
   min-height: 25px;
 }
+
 @media (min-width: 768px) and (max-width: 991px) {
   .busuanzi-count {
     width: auto;
-  }
-  .busuanzi-count:before {
-    display: none;
+    &:before {
+      display: none;
+    }
   }
 }
+
 @media (max-width: 767px) {
   .busuanzi-count {
     width: auto;
-  }
-  .busuanzi-count:before {
-    display: none;
+    &:before {
+      display: none;
+    }
   }
 }
