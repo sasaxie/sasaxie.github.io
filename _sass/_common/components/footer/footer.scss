@@ -37,3 +37,26 @@
 
   img { display: inline-block; }
 }
+
+.busuanzi-count:before {
+  content: " ";
+  float: left;
+  width: 260px;
+  min-height: 25px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .busuanzi-count {
+    width: auto;
+  }
+  .busuanzi-count:before {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .busuanzi-count {
+    width: auto;
+  }
+  .busuanzi-count:before {
+    display: none;
+  }
+}
